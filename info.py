@@ -44,9 +44,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://onlyforusetstuffs:JTp66ahxVnHDza2V@cluster0.bqyuq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "ANKIT1")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'coa09')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://trial:hPkCGbNzgLFO503B@cluster0.5lepgwj.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "trial")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'bo9')
 
 premium = environ.get('PREMIUM_LOGS', '-1001424329361')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
