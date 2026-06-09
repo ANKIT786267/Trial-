@@ -975,7 +975,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           ]]
                         await client.send_message(
                             chat_id=query.from_user.id,
-                            text="<b>हर दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
+                            text="<b>𝗩𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻❕\n हर 𝟮𝟰 घंटे में एक बार वेरीफाई करें और अनलिमिटेड मूवीज़ रिक्वेस्ट करें \n 𝖵𝖾𝗋𝗂𝖿𝗒 𝖮𝗇𝖼𝖾 𝖤𝗏𝖾𝗋𝗒 24𝗁𝗋𝗌 𝖠𝗇𝖽 𝖦𝖾𝗍 𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝖬𝗈𝗏𝗂𝖾𝗌</b>",
                             protect_content=True if ident == 'checksubp' else False,
                             disable_web_page_preview=True,
                             parse_mode=enums.ParseMode.HTML,
@@ -1000,7 +1000,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 else:
                     return await query.answer(f"Hᴇʏ {query.from_user.first_name}, Tʜɪs Is Nᴏᴛ Yᴏᴜʀ Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ. Rᴇǫᴜᴇsᴛ Yᴏᴜʀ's !", show_alert=True)
         except UserIsBlocked:
-            await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
+            await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀn !', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
@@ -1048,7 +1048,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
           ]]
             await client.send_message(
                 chat_id=query.from_user.id,
-                text="<b>हर दो दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter Get Unlimited Movies...✅</b>",
+                text="<b>𝗩𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻❕\n हर 𝟮𝟰 घंटे में एक बार वेरीफाई करें और अनलिमिटेड मूवीज़ रिक्वेस्ट करें \n 𝖵𝖾𝗋𝗂𝖿𝗒 𝖮𝗇𝖼𝖾 𝖤𝗏𝖾𝗋𝗒 24𝗁𝗋𝗌 𝖠𝗇𝖽 𝖦𝖾𝗍 𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝖬𝗈𝗏𝗂𝖾𝗌\n</b>",
                 protect_content=True if ident == 'checksubp' else False,
                 disable_web_page_preview=True,
                 parse_mode=enums.ParseMode.HTML,
