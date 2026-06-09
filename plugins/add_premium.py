@@ -100,7 +100,7 @@ async def allplan(bot, message):
             InlineKeyboardButton('cʟᴏꜱᴇ ❌', callback_data='close_data')
         ]]
     await message.reply_photo(
-        photo="https://te.legra.ph/file/c87368e69e9220d1b5c0a-0997a9769f10c11e34.jpg",
+        photo="https://te.legra.ph/file/-.jpg",
         caption="""<blockquote><b>
 📌 Note: Ab Tak premium Start hua nahi hai, Apna Plan Check Karein. kisi aur ko payment mat karo.</b></blockquote>""",
         reply_markup=InlineKeyboardMarkup(btn)
