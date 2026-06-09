@@ -3,10 +3,13 @@ then
   echo "Cloning main Repository"
   git clone https://github.com/ANKIT786267/Trial- /Trial-
 else
-  echo "Cloning Custom Repo from $UPSTREAM_REPO "
+  echo "Cloning Custom Repo from $UPSTREAM_REPO"
   git clone $UPSTREAM_REPO /Trial-
 fi
-cd /Latest-of-latest-
+
+cd /Trial-
+
 pip3 install -U -r requirements.txt
+
 echo "Starting Bot...."
 python3 bot.py
