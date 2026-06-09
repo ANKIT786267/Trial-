@@ -764,7 +764,7 @@ async def send_all(bot, userid, files, ident):
           ]]
         await bot.send_message(
             chat_id=userid,
-            text="<b>हर दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter then Get Unlimited Movies...✅</b>",
+            text="<b>𝗩𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻❕\n हर 𝟮𝟰 घंटे में एक बार वेरीफाई करें और अनलिमिटेड मूवीज़ रिक्वेस्ट करें \n 𝖵𝖾𝗋𝗂𝖿𝗒 𝖮𝗇𝖼𝖾 𝖤𝗏𝖾𝗋𝗒 24𝗁𝗋𝗌 𝖠𝗇𝖽 𝖦𝖾𝗍 𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝖬𝗈𝗏𝗂𝖾𝗌</b>",
             protect_content=True if PROTECT_CONTENT else False,
             reply_markup=InlineKeyboardMarkup(btn)
         )
