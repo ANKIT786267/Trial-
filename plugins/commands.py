@@ -228,7 +228,7 @@ async def start(client, message):
                 ]]
                 await verify_user(client, userid, token)
                 await message.reply_text(
-                    text=f"<b> Verification completed ✅\n\nअब आप 1 Day अनलिमिटेड मूवी ले सकते है।</b>",
+                    text=f"<b> 𝗩𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗗𝗼𝗻𝗲 ✅</b>",
                     protect_content=True if PROTECT_CONTENT else False,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -237,7 +237,7 @@ async def start(client, message):
                 InlineKeyboardButton("Get File", url=f"https://telegram.me/{temp.U_NAME}?start=files_{fileid}")
             ]]
             await message.reply_text(
-                text=f"<b>सफलतापूर्वक वेरिफाई हो गए हैं ! ✅\n\nअब आप 1 Day अनलिमिटेड मूवी ले सकते है।</b>",
+                text=f"<b>𝗩𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻 𝗗𝗼𝗻𝗲 ✅</b>",
                 protect_content=True if PROTECT_CONTENT else False,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
@@ -253,12 +253,12 @@ async def start(client, message):
         btn = [[
             InlineKeyboardButton('📸 Send Payment Screenshot 📸', url="https://t.me/coa400_bot")
         ],[
-            InlineKeyboardButton('☘️ Feature', url="https://te.legra.ph/file/c87368e69e9220d1b5c0a-0997a9769f10c11e34.jpg"),
+            InlineKeyboardButton('☘️ Feature', url="https://te.legra.ph/file/"),
             InlineKeyboardButton('Close ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         await message.reply_photo(
-        photo="https://te.legra.ph/file/c87368e69e9220d1b5c0a-0997a9769f10c11e34.jpg",
+        photo="https://te.legra.ph/file/",
         caption="""<blockquote><b>📌 Note: Ab Tak premium Start hua nahi hai, Apna Plan Check Karein. kisi aur ko payment mat karo.</b></blockquote>""",
             reply_markup=reply_markup
         )
@@ -274,7 +274,7 @@ async def start(client, message):
                     InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
           ]]
                 await message.reply_text(
-                    text="<b>हर 1 दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter then Get Unlimited Movies...✅</b>",
+                    text="<b>𝗩𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻❕\n हर 𝟮𝟰 घंटे में एक बार वेरीफाई करें और अनलिमिटेड मूवीज़ रिक्वेस्ट करें \n 𝖵𝖾𝗋𝗂𝖿𝗒 𝖮𝗇𝖼𝖾 𝖤𝗏𝖾𝗋𝗒 24𝗁𝗋𝗌 𝖠𝗇𝖽 𝖦𝖾𝗍 𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝖬𝗈𝗏𝗂𝖾𝗌.</b>",
                     protect_content=True if PROTECT_CONTENT else False,
                     reply_markup=InlineKeyboardMarkup(btn)
                 )
@@ -325,7 +325,7 @@ async def start(client, message):
             InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url=HOW_TO_VERIFY)
           ]]
         await message.reply_text(
-            text="<b>हर दो दिन में 10 सेकंड का वेरिफिकेशन \nजरूरी हे !\n\nJust 10 second Bro 🥲\n\nAfter then Get Unlimited Movies...✅</b>",
+            text="<b>𝗩𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝘁𝗶𝗼𝗻❕\n हर 𝟮𝟰 घंटे में एक बार वेरीफाई करें और अनलिमिटेड मूवीज़ रिक्वेस्ट करें \n 𝖵𝖾𝗋𝗂𝖿𝗒 𝖮𝗇𝖼𝖾 𝖤𝗏𝖾𝗋𝗒 24𝗁𝗋𝗌 𝖠𝗇𝖽 𝖦𝖾𝗍 𝖴𝗇𝗅𝗂𝗆𝗂𝗍𝖾𝖽 𝖬𝗈𝗏𝗂𝖾𝗌.</b>",
             protect_content=True if PROTECT_CONTENT else False,
             reply_markup=InlineKeyboardMarkup(btn)
         )
